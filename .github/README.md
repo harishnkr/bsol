@@ -1,4 +1,4 @@
-# Black Screen of Life
+# Blue Screen of Life
 
 Embrace the Blue Screen. 
 
