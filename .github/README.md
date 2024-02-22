@@ -8,6 +8,8 @@ Own this grub theme. Make it the first thing you see...
 
 # How to Install
 
+> :warning: **Make sure you understand what you are doing. Installation of the theme can cause problems in your system if done incorrectly** 
+
 - Clone the repo 
 
 ```
