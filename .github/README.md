@@ -40,10 +40,5 @@ sudo update-grub
 
 # Credits
 
-Fonts:
-
-- Victor Mono Italic
-- [Weknow Windows Font](https://www.1001freefonts.com/weknow-windows.font)
-
 
 [This amazing guide](http://wiki.rosalab.ru/en/index.php/Grub2_theme_tutorial)

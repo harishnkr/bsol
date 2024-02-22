@@ -16,11 +16,11 @@ terminal-border: "0"
   top = 53%
   width = 47%
   height = 65%
-  item_font =  "WEKNOW Windows Regular 20"
+  item_font =  "Victor Mono Bold Italic 24"
   item_color = "#cccccc"
   selected_item_color = "#ffffff"
-  icon_width = 39
-  icon_height = 39
+  icon_width = 50
+  icon_height = 50
   item_icon_space = 20
   item_height = 40
   item_padding = 2
@@ -37,5 +37,5 @@ terminal-border: "0"
   id = "__timeout__"
   text = "Selected OS will start in %d seconds"
   color = "#cccccc"
-  font = "WEKNOW Windows Regular 28"
+  font = "Victor Mono Bold Italic 28"
 }
