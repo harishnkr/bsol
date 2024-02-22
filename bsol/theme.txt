@@ -1,0 +1,41 @@
+# Global options
+title-text: ""
+desktop-image: "background.png"
+desktop-color: "#000000"
+terminal-font: "Victor Mono Italic 20"
+terminal-box: "terminal_box_*.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+# Boot menu
++ boot_menu {
+  left = 17%
+  top = 53%
+  width = 47%
+  height = 65%
+  item_font =  "WEKNOW Windows Regular 20"
+  item_color = "#cccccc"
+  selected_item_color = "#ffffff"
+  icon_width = 39
+  icon_height = 39
+  item_icon_space = 20
+  item_height = 40
+  item_padding = 2
+  item_spacing = 10
+  selected_item_pixmap_style = "select_*.png"
+}
+
+
+# Countdown
++ label {
+  left = 25%
+  top = 30%
+  align = "left"
+  id = "__timeout__"
+  text = "Selected OS will start in %d seconds"
+  color = "#cccccc"
+  font = "WEKNOW Windows Regular 28"
+}
