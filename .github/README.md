@@ -44,6 +44,13 @@ For Debian based systems:
 ```
 sudo update-grub
 ```
+### Choosing font
+
+By default, the theme uses `victor mono italic` font. Alternatives are as follows:
+
+- Victor Mono Regular 16
+
+To change it, change the line containing the terminal font in the `theme.txt` file. To suggest another font, open a new issue.
 
 # Credits
 
