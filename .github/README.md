@@ -10,12 +10,8 @@ Own this grub theme. Make it the first thing you see...
 
 > :warning: **Make sure you understand what you are doing. Installation of the theme can cause problems in your system if done incorrectly** 
 
-## Using Package manager
 
-If you use Arch linux or derivatives, use this [package](https://aur.archlinux.org/packages/grub-theme-bsol-git)
-run `grub-install --themes=bsol` followed by `grub-mkconfig -o /boot/grub/grub.cfg"` both with `sudo` privileges.
-
-## Manual Installation
+## Manual Installation (preferred method) 
 
 - Clone the repo 
 
@@ -44,6 +40,11 @@ For Debian based systems:
 ```
 sudo update-grub
 ```
+## Using Package manager
+
+If you use Arch linux or derivatives, use this [package](https://aur.archlinux.org/packages/grub-theme-bsol-git)
+run `grub-install --themes=bsol` followed by `grub-mkconfig -o /boot/grub/grub.cfg"` both with `sudo` privileges.
+
 ### Choosing font
 
 By default, the theme uses `victor mono italic` font. Alternatives are as follows:
