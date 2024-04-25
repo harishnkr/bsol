@@ -45,6 +45,9 @@ sudo update-grub
 If you use Arch linux or derivatives, use this [package](https://aur.archlinux.org/packages/grub-theme-bsol-git)
 run `grub-install --themes=bsol` followed by `grub-mkconfig -o /boot/grub/grub.cfg"` both with `sudo` privileges.
 
+
+## Configuration
+
 ### Choosing font
 
 By default, the theme uses `victor mono italic` font. Alternatives are as follows:
