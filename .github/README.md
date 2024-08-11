@@ -45,11 +45,11 @@ For Fedora based systems:
 ```
 sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 ```
-when using BIOS or 
+    when using BIOS or 
 ```
 sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
 ```
-when using EFI
+    when using EFI
 
 ## Using Package manager
 
