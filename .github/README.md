@@ -40,6 +40,17 @@ For Debian based systems:
 ```
 sudo update-grub
 ```
+
+For Fedora based systems:
+```
+sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+```
+when using BIOS or 
+```
+sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+```
+when using EFI
+
 ## Using Package manager
 
 If you use Arch linux or derivatives, use this [package](https://aur.archlinux.org/packages/grub-theme-bsol-git)
@@ -55,6 +66,21 @@ By default, the theme uses `victor mono italic` font. Alternatives are as follow
 - Victor Mono Regular 16
 
 To change it, change the line containing the terminal font in the `theme.txt` file. To suggest another font, open a new issue.
+
+## Troubleshooting
+
+Some fixes for issues that may help are as follows. All feedbacks are appreciated
+
+- Make sure this line is commented with a `#` in the beginning:
+    ```
+    GRUB_TERMINAL_OUTPUT="console"
+    ```
+- Change resolution with this line:
+    ```
+    GRUB_GFXMODE="[x_res]x[y_res]x32"
+    ```
+    (change x_res and y_res to your screen resolution, e.g. 1920x1080)
+
 
 # Credits
 
