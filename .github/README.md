@@ -82,6 +82,10 @@ Some fixes for issues that may help are as follows. All feedbacks are appreciate
     ```
     (change x_res and y_res to your screen resolution, e.g. 1920x1080)
 
+# TODO
+
+- Update the packages on Pling.com, Gnome-look and Opendesktop sites
+- Create install script for various distros
 
 # Credits
 
