@@ -92,3 +92,4 @@ Some fixes for issues that may help are as follows. All feedbacks are appreciate
 
 - [This amazing guide](http://wiki.rosalab.ru/en/index.php/Grub2_theme_tutorial)
 - [y0uCeF](https://github.com/y0uCeF) for helping with the AUR package
+- [This repo](https://github.com/Jacksaur/Gorgeous-GRUB) for showcasing various themes.
