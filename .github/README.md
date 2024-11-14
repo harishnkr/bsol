@@ -26,6 +26,13 @@ git clone https://github.com/harishnkr/bsol.git
 ```
 GRUB_THEME="/boot/grub/themes/bsol/theme.txt"
 ```
+
+- For Fedora based systems only: Change the `GRUB_ENABLE_BLSCFG` and `GRUB_TERMINAL_OUTPUT` line in `/etc/default/grub` file:
+```
+GRUB_ENABLE_BLSCFG="false"
+GRUB_TERMINAL_OUTPUT="gfxterm"
+```
+
 - Update GRUB with sudo privileges.
 
 For Arch based systems:
@@ -42,15 +49,9 @@ sudo update-grub
 ```
 
 For Fedora based systems:
-- when using BIOS  
-    ```
-    sudo grub2-mkconfig -o /boot/grub2/grub.cfg
-    ```
-
-- when using EFI
-    ```
-    sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
-    ```
+```
+sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+```
 
 ## Using Package manager
 
