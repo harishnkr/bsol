@@ -61,13 +61,42 @@ run `grub-install --themes=bsol` followed by `grub-mkconfig -o /boot/grub/grub.c
 
 ## Configuration
 
-### Choosing font
+### Fonts
 
-By default, the theme uses `victor mono italic` font. Alternatives are as follows:
+There are three texts where fonts can be controlled in the configuration:
 
-- Victor Mono Regular 16
+- The "terminal-font", which is used when we switch to the terminal mode.
+- The "item_font", which is used on each of the boot entries.
+- The text "font", which is used in the countdown.
 
-To change it, change the line containing the terminal font in the `theme.txt` file. To suggest another font, open a new issue.
+All these fonts are configured in the `theme.txt` file.
+
+By default, the theme uses `victor mono italic` font with various font sizes for each of the texts.
+
+### Creating custom fonts
+
+> [!NOTE]  
+> In the inital version, I used the font [Weknow Windows font](https://www.1001freefonts.com/weknow-windows.font) but changed to Victor Mono Italic. This information is for those who wants to use the old font but dont know the origin of the font.
+
+In order to use custom font for each of the texts that I mentioned above, you can use the [grub-mkfont](https://man.archlinux.org/man/grub-mkfont.1.en) utility to create them. Make sure you have the original font in ttf or other supported format. The command to make the font is as follows:
+
+```
+grub-mkfont --output=output_file.pf2 input_file
+```
+
+Here the input file specified must be the font file, and the output file specified must be in the ".pf2" format. The files must be in the same folder as the theme.txt file. The font size can also be specified using the `--size=N` where N is in integer value.
+
+To change the fonts, change the line containing the font in the `theme.txt` file.
+
+To see the changes, check the [Preview](#preview-theme) section
+
+## Preview Theme
+
+The themes can be previewed using the [grub2-theme-preview](https://aur.archlinux.org/packages/grub2-theme-preview) package. To view the theme just type the command in the bsol directory:
+
+```
+grub2-theme-preview bsol 
+```
 
 ## Troubleshooting
 
