@@ -98,6 +98,13 @@ The themes can be previewed using the [grub2-theme-preview](https://aur.archlinu
 grub2-theme-preview bsol 
 ```
 
+If the theme viewer does not popup for any reason (for example using Wayland), you can use VNC viewer, for example [TigerVNC](https://wiki.archlinux.org/title/TigerVNC) to view it by giving the command:
+
+```
+vncviewer localhost
+```
+
+
 ## Troubleshooting
 
 Some fixes for issues that may help are as follows. All feedbacks are appreciated
