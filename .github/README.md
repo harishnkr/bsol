@@ -121,7 +121,6 @@ Some fixes for issues that may help are as follows. All feedbacks are appreciate
 
 # TODO
 
-- Update the packages on Pling.com, Gnome-look and Opendesktop sites
 - Create install script for various distros
 
 # Credits
