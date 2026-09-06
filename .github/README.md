@@ -10,6 +10,14 @@ Own this grub theme. Make it the first thing you see...
 
 > :warning: **Make sure you understand what you are doing. Installation of the theme can cause problems in your system if done incorrectly** 
 
+## Automatic Installation
+- Clone the repo
+- make sure you're in the same folder as the install.sh file
+```bash
+# will not work without sudo permissions
+sudo ./install.sh 
+```
+And you're done if the script terminates without any errors!
 
 ## Manual Installation (preferred method) 
 
